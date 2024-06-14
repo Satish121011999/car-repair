@@ -1,0 +1,407 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "Quicksand", sans-serif;
+}
+.nav{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content:center;
+    position: fixed;
+    
+}
+.nav ul{
+    padding: 20px 0px ;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+.nav ul li a{
+    margin: 20px;
+  text-decoration: none;
+  color: white;
+    
+}
+.cardiv{
+    padding: 400px 0px ;
+    width: 100%;
+    background-image:url(photo-car-advertising-exhibition-copy-space-dark-room-background-generated-by-ai_911060-16484.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cartext{
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.cartext h1{
+    font-size: 80PX ;
+    font-weight: 100;
+    margin: 20px;
+}
+
+.fa-facebook{
+    font-size: 50px;
+
+}
+.fa-instagram{
+    font-size: 50px;
+    
+}
+.fa-pinterest{
+         font-size: 50px;
+}
+.black{
+    padding: 250px 0px;
+    width: 100%;
+    background-image: url(black-smooth-wall-textured-background_53876-124461.avif);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.blacktext{
+    width: 80%;
+    color: white;
+    text-align: center;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.blacktext h1{
+    font-size: 22px;
+    padding: 20px 0px;
+}
+
+.text1{
+    padding: 20px 0px ;
+    width: 25%;
+ 
+}
+.text2{
+    padding: 20px 0px ;
+    width: 25%;
+  
+}
+.text3{
+    padding: 20px 0px ;
+    width: 25%;
+    
+}
+.fa-screwdriver-wrench{
+    font-size: 50px;
+    color:wheat;
+}
+.fa-list{
+    font-size: 50PX;
+    color: white;
+}
+.fa-paint-roller{
+    font-size: 50PX;
+    color: white;
+}
+/* this part is about work */
+.work{
+    padding: 50px 0px;
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.work p{
+    padding-top: 20px;
+}
+.line{
+    padding: 2px 0px;
+    width: 70px ;
+    background-color: #000000;
+}
+.photos{
+    padding: 20px 0px;
+    width: 100%;
+  
+}
+.boxup{
+    padding: 20px 0px ;
+    width: 100%;
+ 
+    display: flex;
+    justify-content: space-around;
+}
+.pic1{
+    width: 30%;
+    padding: 200px 0px;
+    background-image: url(headlight-lamp-car_1339-5495.jpg);
+    background-size: cover;
+}
+.pic2{
+    width: 30%;
+    padding: 200px 0px;
+    background-image: url(red-sports-tuned-car-rear-view-wheel-close-up-fashion-car-day-road_78492-3878.jpg);
+    background-size: cover;
+}
+.pic3{
+    width: 30%;
+    padding: 200px 0px;
+    background-image: url(direction-wheel-sport-car_114579-4008.jpg);
+    background-size: cover;
+}
+.boxdown{
+    padding: 20px 0px ;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.pic4{
+    width: 30%;
+    padding: 200px 0px;
+    background-image: url(drivers-hands-steering-wheel-car-night-night-driving_169016-51113.jpg);
+    background-size: cover;
+}
+.pic5{
+    width: 30%;
+    padding: 200px 0px;
+    background-image: url(led-headlight-blue-car_23-2147962992.jpg);
+    background-size: cover;
+}
+.pic6{
+    width: 30%;
+    padding: 200px 0px;
+
+    background-image: url(red-sports-tuned-car-rear-view-wheel-close-up-fashion-car-day-road_78492-3878.jpg);
+    background-size: cover;
+}
+
+    
+ .grey{
+    padding: 250px 0px;
+    width: 100%;
+    background-image: url(vector-seamless-pattern-with-tools-repair-construction_109327-560.avif);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+ }
+ .about{
+    padding: 200px 0px ;
+    width: 70%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .about p{
+    padding: 10px 0px;
+ }
+ .about h1{
+    font-size: 50px;
+ }
+ .park{
+    padding: 600px 0px;
+    width: 100%;
+    background-image: url(smiling-young-man-making-fun-her-girlfriend-after-winning-chess-game-living-room_23-2148049363.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+ }
+ /* this is foot part */
+ .foot{
+     padding: 20px 0px 200px 0px;
+    width: 100%;
+    background-image: url(black-smooth-wall-textured-background_53876-124461.avif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .footup{
+    padding: 50px 0px;
+    width: 40%;
+ }
+ .footdown{
+    width: 60%;
+    background-color:white;
+    text-align: center;
+
+
+
+ }
+ .up{
+    width: 100%;
+   
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  
+    
+ }
+ .down{
+    width: 100%;
+    padding: 20px 0px;
+   
+    display: flex;
+
+ }
+ .leftf{
+    width: 50%;
+  
+    padding: 20px 0px;
+ }
+ .leftf p{
+    margin: 40px 0px;
+ }
+ .rightf{
+    width: 50%;
+   
+    padding: 10px 0px;
+ }
+ input{
+    margin: 10px 0px;
+    width: 80%;
+    padding: 5px 0px ;
+    background-color: #f7f7f7;
+    border: 1px solid black;
+    transition-duration: 1s;
+}
+input:hover{
+    background-color: grey;
+}
+.message{
+    padding: 40px 0px;
+}
+button{
+    padding: 5px 0px ;
+     width: 250px;
+     background-color: grey;
+}
+.end{
+    padding: 20px 0px;
+    width: 100%;
+  text-align: center;
+}
+  /* THIS IS RESPONSIVE PART */
+  @media (max-width:982px) {
+    
+    .nav ul li a{
+        display: none;
+    }
+    .cartext h1{
+        font-size: 25px ;
+        font-weight: 100;
+    }
+    .boxup{
+        padding: 20px 0px ;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .pic1{
+        width: 100%;
+    }
+    .pic2{
+        width: 100%;
+    }
+    .pic3{
+        width: 100%;
+    }
+    .boxdown{
+        padding: 20px 0px ;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .pic4{
+        width: 100%;
+    }
+    .pic5{
+        width: 100%;
+    }
+    .pic6{
+        width: 100%;
+    }
+    .about p{
+        font-size: 25PX;
+        text-align: center;
+    }
+    button{
+        width: 100px;
+    }
+    .footdown{
+        width: 90%;
+    }
+  } 
+  
+  @media (max-width:768px) {
+    
+    .cartext h1{
+        font-size: 30px ;
+        font-weight: 100;
+    }
+    .boxup{
+        padding: 20px 0px ;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .pic1{
+        width: 100%;
+    }
+    .pic2{
+        width: 100%;
+    }
+    .pic3{
+        width: 100%;
+    }
+    .boxdown{
+        padding: 20px 0px ;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .pic4{
+        width: 100%;
+    }
+    .pic5{
+        width: 100%;
+    }
+    .pic6{
+        width: 100%;
+    }
+    .blacktext{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .text1{
+        width: 100%;
+    }
+    .text2{
+        width: 100%;
+    }
+    .text3{
+        width: 100%;
+    }
+    .down{
+        display: flex;
+        flex-direction: column;
+    }
+    .leftf{
+        width: 100%;
+    }
+    .rightf{
+        width: 100%;
+    }
+    .about p{
+        font-size: 25PX;
+        text-align: center;
+    }
+    button{
+        width: 100px;
+    }
+  }
